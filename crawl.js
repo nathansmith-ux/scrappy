@@ -1,3 +1,8 @@
+/**
+ * Function normalizes URLs using URL Object
+ * @param {url} urlString 
+ * @returns domain and path as a string
+ */
 function normalizeURL(urlString) {
   const urlObj = new URL(urlString);
   const hostPath = `${urlObj.hostname}${urlObj.pathname}`;
