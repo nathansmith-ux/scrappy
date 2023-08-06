@@ -1,0 +1,23 @@
+{
+  "name": "scrappy",
+  "version": "1.0.0",
+  "description": "A web scrapper built using node.js based on a YouTube tutorial by [Boot dev](https://boot.dev/).",
+  "main": "main.js",
+  "scripts": {
+    "start": "node main.js",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nathansmith-ux/scrappy.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nathansmith-ux/scrappy/issues"
+  },
+  "homepage": "https://github.com/nathansmith-ux/scrappy#readme",
+  "devDependencies": {
+    "jest": "^29.6.2"
+  }
+}
